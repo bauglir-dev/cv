@@ -1,0 +1,114 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}
+\moderncvtheme[black]{casual}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\graphicspath{{../img/}}
+
+% Personal data
+\firstname{Jesid Mauricio\\}
+\familyname{Mejía Castro}
+\title{Ingeniero de sistemas y computación}
+%\address{Cra. 13C 165 86\ }{Bogotá\ }{Colombia}
+%\mobile{7}
+%\phone{7}
+%\email{jmauriciomejia@gmail.com}
+\photo[64pt]{mauricio01.jpg}
+\quote{
+	\\[1cm]
+	Profesional egresado de la Universidad Nacional de Colombia y estudios de posgrado (en curso) de la Universidad de Bogotá Jorge Tadeo Lozano.
+	\\[1cm]
+	He trabajado principalmente en el sector financiero. Tengo 3 años de experiencia en manejo de bases de datos Oracle y SQL Server, y desarrollo de ETL con Infosphere DataStage e Integration Services. Tambíen poseo habilidades de programación en los lenguajes Python y R. En mis tiempos libres experimento con sistemas operativos basados en Unix y software libre.
+	\\[1cm]
+	Conservo un obsesivo espíritu de aprendizaje y suelo promover la excelencia técnica en el producto final. Comprometido con la honestidad y ética en los ambientes de trabajo.}
+
+\begin{document}
+\maketitle
+\newpage
+
+\section{Datos Personales} % Si deseas que tus datos se muestren como sección puedes incluirlos
+\cvitem{Dirección}{Cra. 13C 165 86 -- Bogotá -- Colombia}
+\cvitem{Correo}{\texttt{jmauriciomejia@gmail.com}}
+\cvitem{Teléfono}{348 39 45}
+\cvitem{Celular}{300 706 36 56}
+\cvitem{Edad}{29}
+
+\section{Educación}
+\cventry{1994--2000}{Primaria}{Centro de Asistencia Estudiantil Ronditas del Tunal}{Bogotá}{}{Cursos desde Transición hasta 4"o de primaria}
+\cventry{2001--2003}{Primaria}{Gimnasio George Berkeley}{Bogotá}{}{Cursos desde 5"o de primaria hasta 7"o de bachillerato.}
+\cventry{2004--2008}{Bachillerato}{Colegio Mayor José Celestino Mutis}{Bogotá}{}{Cursos desde 8"o hasta 11"o de bachillerato.}
+\cventry{2009--2010}{Ingeniería de Sistemas}{Universidad El Bosque}{Bogotá}{}{Semestres 1"o, 2"o y 3"o}
+\cventry{2010--2017}{Ingeniería de Sistemas y Computación}{Universidad Nacional de Colombia}{Sede Bogotá}{}{Semestres 3"o en adelante}
+\cventry{2020--2021}{Maestría en Ingeniería y Analítica de Datos}{Universidad de Bogotá Jorge Tadeo Lozano}{Bogotá}{}{En curso}
+
+\section{Experiencia Laboral}
+
+\cventry{2016 -- 2017}
+{Practicante empresarial} % Título del cargo que desempeñaste
+{Enel Codensa E.S.P} % El nombre de la organización donde laboraste
+{}{} % Específica el nivel de responsabilidad
+{\vspace{0.05cm}
+	\includegraphics[height=0.9cm]{enel.jpg} %Coloca el logo de la empresa donde laboraste
+	\vspace{0.15cm}}
+\cvitem{}{
+	En esta empresa de servicios públicos completé mis prácticas en la Oficina Defensor del Cliente (\textit{Customer Ombudsman}). Allí se me asignó la responsabilidad de introducir nuevos ajustes a la base de datos, el cálculo y presentación de indicadores del área, entre otros desarrollos \textit{in-house}, principalmente con MS Access y VBA.}
+\cvitem{}
+{}
+
+\cventry{2018 -- 2021}
+{Analista III y II} % Título del cargo que desempeñaste
+{Banco de Bogotá S.A.} % El nombre de la organización donde laboraste
+{}{}
+{\vspace{0.15cm}
+	\includegraphics[height=0.9cm]{bdb.png} % Coloca el logo de la empresa donde laboraste
+	\vspace{0.15cm}}
+\cvitem{}{
+	Entre 2018 y 2019 trabajé con la División de Crédito Masivo realizando desarrollos en la base de datos (MS SQL Server 2012) y presentando reportes (principalmente en Excel) orientados a soportar la operación de estudios crediticios para clientes del banco. Entre mediados de 2019 e inicios de 2021 trabajé en la oficina de Gobierno y Calidad de la Información desarrollando ETL con DataStage y \textit{scripts} de PL/SQL con el objetivo de medir la calidad de los datos provenientes de múltiples dominios de información en la organización.}
+\cvitem{}
+{}
+
+\cventry{2021}
+{Profesional Data Warehouse} % Título del cargo que desempeñaste
+{Credivalores S.A.} % El nombre de la organización donde laboraste
+{}{}
+{\vspace{0.15cm}
+	\includegraphics[height=0.6cm]{credivalores.jpg} %Coloca el logo de la empresa donde laboraste
+	\vspace{0.3cm}}
+\cvitem{}{
+	Entre febrero de 2021 y mayo de 2021 trabajé en la Dirección Data Warehouse cubriendo las necesidades de información de las áreas de producto de la compañía. Cada integrante de la dirección recibía los requerimientos y su responsabilidad era completarlos de principio a fin, desde el análisis y el diseño, pasando por el desarrollo de la ETL, hasta la visualización de los indicadores y las pruebas. Se utilizó principalmente SQL Server 2017 para la base de datos, Integration Services para la ETL y Power BI para la visualización de indicadores.}
+\cvitem{}
+{}
+
+\section{Habilidades en computaci\'on}
+\cvcomputer{Oracle}{Modelado, DDL, DML y PL/SQL}{SQL Server}{Modelado, DDL y DML}
+\cvcomputer{Infosphere DataStage}{Desarrollo de ETL}{Integration Services}{Desarrollo de ETL}
+\cvcomputer{Python}{Proyectos académicos de aprendizaje automático}{R}{Modelos estadísticos}
+
+
+\newpage
+
+\section{Referencias Personales}
+\textbf{Ivonne Offyr Castro Hernandez}\\
+Madre\\
+Cel.: 301 469 56 46\\
+\\
+\textbf{Rafael Alberto Mejía Cuello}\\
+Padre\\
+Cel.: 300 275 92 72\\
+\section{Referencias Laborales}
+\textbf{Cristian L. Echeverría}\\
+Ing. Mecánico\\
+Cel.: 300 738 22 14\\
+\\
+\textbf{Alfonso Arias}\\
+Contador\\
+Cel.: 311 466 04 51\\
+
+
+\end{document}

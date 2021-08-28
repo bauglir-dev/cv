@@ -1,0 +1,104 @@
+\documentclass[11pt,letter,sans]{moderncv}
+\moderncvtheme[blue]{casual}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} %Character encoding
+\usepackage[spanish,es-notilde]{babel}
+
+\spanishdatedel %Configuta el comando \today para que imprima <<del>> en lugar de <de>>
+\usepackage{graphicx} %Permite el uso de gráficos
+\usepackage[left=2cm,right=1.8cm,top=1.5cm,bottom=2.5cm]{geometry} %Establece los márgenes de la hoja
+\nopagenumbers{} %Suprime la numeración de páginas, se recomienda cuando tenemos un documento pequeño
+
+\firstname{Jesid Mauricio\\} 
+\familyname{Mejía Castro}
+\title{Curriculum Vitae}
+ 
+\photo[59pt]{foto_mauricio_2.jpg}
+
+\begin{document}
+
+\maketitle
+
+\section{Overview}
+ 
+\cvitem{}{
+Systems and Computer Engineer from the National University of Colombia. I am currently pursuing the title of Master in Engineering and Data Analytics from the Jorge Tadeo Lozano University. My experience covers databases and ETLs development in banking and financial services. I keep an obsessive spirit for learning and understanding complex subjects and I promote technical rigor and intense teamwork. I am deeply engaged with ethics in the workplace.}
+ 
+\section{Personal Data} % Si deseas que tus datos se muestren como sección puedes incluirlos
+
+\cvitem{\textbf{Address}}{Cra. 13 C 165 - 86 Casa 35} 
+\cvitem{\textbf{Civil status}}{Single}
+\cvitem{\textbf{Birth date}}{September 27, 1991}
+\cvitem{\textbf{Phone}}{+57 300 706 3656}
+\cvitem{\textbf{Email}}{\texttt{jmauriciomejia@gmail.com}}
+
+\section{Education}
+ 
+\subsection{Undergraduate degree}
+
+\cventry{\includegraphics[width=1.2cm]{logo_unal_3.jpg} \\\centering{2012 -- 2017}}
+{Ingeniero de Sistemas y Computación}
+{Universidad Nacional de Colombia}
+{Bogotá}
+{}{}
+
+\subsection{Graduate degree}
+
+\cventry{\includegraphics[width=1.3cm]{logo_utadeo.jpg} \\\centering{2020 (Ongoing)}}
+{Magíster en Ingeniería y Analítica de Datos}
+{Universidad de Bogotá Jorge Tadeo Lozano}
+{Bogotá} 
+{}{}
+
+\section{Technical Skills}
+ 
+\subsection{Advanced User}
+ 
+\cvdoubleitem % Este comando permite ingresa dos ítem en una solo nivel
+{\textbf{ETL Development}}{{IBM Infosphere DataStage}}
+{\textbf{DBMS}}{{PL/SQL with Oracle Database. SQL with MS SQL Server 2012}}
+ 
+\subsection{Intermediate User}
+
+\cvdoubleitem % Este comando permite ingresa dos ítem en una solo nivel
+{\textbf{Programming Languages}}{{Python, Java, VBA, R}}
+{\textbf{Machine Learning}}{{Regression, Classification, Clustering and Dimensionality Reduction}}
+
+\section{Languages}
+ 
+\cvlanguage{\textbf{English}}{High level of reading and listening}{}
+
+\section{Job Experience}
+ 
+\subsection{Years}
+
+\cventry{2016 -- 2017}
+{Internship} % Título del cargo que desempeñaste
+{Enel Codensa S.A. E.S.P.} % El nombre de la organización donde laboraste
+{}
+{} % Específica el nivel de responsabilidad
+{\vspace{0.15cm}
+  \includegraphics[height=1.2cm]{logo_codensa.jpg} %Coloca el logo de la empresa donde laboraste
+  \vspace{0.15cm}}
+ 
+\cvitem{}
+{In this utility company I completed my internship with the Customer Ombudsman Office. I was in charge of new developments and monthly reports (mainly with MS Access and VBA).} % Detalla los alcances y responsabilidades asumidas.
+\cvitem{}
+{}
+ 
+\cventry{2018 -- 2020}
+{Analyst} % Título del cargo que desempeñaste
+{Banco de Bogotá} % El nombre de la organización donde laboraste
+{}
+{} % Específica el nivel de responsabilidad
+{\vspace{0.15cm}
+  \includegraphics[height=0.9cm]{logo_bdb.png} %Coloca el logo de la empresa donde laboraste
+  \vspace{0.15cm}}
+ 
+\cvitem{}
+{Between 2018 and 2019 I worked in the Credit Division developing in-house tools and database reports (with MS SQL Server 2012). Since mid 2019 until now I have been working in the Information Governance And Data Quality Office. I develop ETL projects and PL/SQL scripts aimed at measuring the quality for several data domains in the bank.} % Detalla los alcances y responsabilidades asumidas.
+\cvitem{}
+{} 
+
+\end{document}
