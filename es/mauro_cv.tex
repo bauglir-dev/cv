@@ -1,5 +1,5 @@
-\documentclass[11pt,letter,sans]{moderncv}
-\moderncvtheme[blue]{casual}
+\documentclass[10pt,letter,sans]{moderncv}
+\moderncvtheme[black]{casual}
  
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc} %Character encoding
@@ -13,15 +13,15 @@
 \nopagenumbers{} %Suprime la numeración de páginas, se recomienda cuando tenemos un documento pequeño
  
 %Tus datos personales
-\firstname{Tus nombres} 
-\familyname{Tus apellidos}
+\firstname{Jesid Mauricio} 
+\familyname{Mej\'ia Castro}
 %Información que se imprimirá en el margen inferior de todas las páginas 
-\title{Hoja de Vida No Documentada} %Mostrará este texto debajo de tu nombre
+\title{Hoja de Vida} %Mostrará este texto debajo de tu nombre
 \quote{(Última Actualización -- \today)} %Imprime la fecha de compilación
-\mobile{256} %Aquí tu número de celular
-\email{Aquí tu correo electrónico}
-\photo[59pt]{graf/tu-foto.jpg} %Aquí tu fotografía
-\address{Aquí tu dirección, la calle y el número del edificio}{Aquí la ciudad y el país si eres internacional}
+%\mobile{} %Aquí tu número de celular
+\email{jmauriciomejia@gmail.com}
+\photo[59pt]{img/mauricio02.jpg} %Aquí tu fotografía
+\address{Cra 13C 165 86 Bogot\'a}
 %\extrainfo{Profesional en ...} 
  
 \begin{document}
@@ -34,52 +34,70 @@
  
 \section{Datos Personales} % Si deseas que tus datos se muestren como sección puedes incluirlos
  
-\cvitem{Estado civil}{Aquí tu estado civil ¿no es obvio?}
-\cvitem{Edad}{Aquí tu edad}
-\cvitem{Móvil}{Aquí tu número móvil}
-\cvitem{Correo electónico}{Aquí tu correo elétrónico}
+\cvitem{Edad}{30}
+\cvitem{Móvil}{3007063656}
 %\cvitem{Jabber ID}{Aquí tu cuenta de Jabber}
-%\cvitem{Página personal}{Dirección de tu página}{<<Nombre de tu página>>}}
+\cvitem{Página personal}{mauriciomejia.life (en construcci\'on...)}
  
 \section{Formación Académica}
  
 \subsection{Profesional} % Títulos Universitarios
  
-\cventry{\includegraphics[width=1.2cm]{graf/logo-de-tu-universidad.jpg} \\\centering{año}}
-{Aquí tu grado académico}
-{Aquí tu universidad}
-{Aquí el distrito en donde está tu universidad}
-{\textit{La provincia}, 
-{\textbf{Aquí destaca tu mérito universitario}}}{}
+\cventry{ %\includegraphics[width=1.5cm]{img/unal02.jpg} \\
+	 \centering{2017}}
+{Ingeniero de sistemas y computaci\'on}
+{Universidad Nacional de Colombia}
+{Bogot\'a}
+{\textit{}}
+{\textbf{Aquí destaca tu mérito universitario}}{}
  
-\subsection{Especialización} % Maestrías y Diplomados
+\subsection{Posgrados} % Maestrías y Diplomados
  
-\cventry{\includegraphics[width=2.46cm]{graf/logo-universidad} \\ Fecha de inicio -- Fecha de finalización}
-{Título de la Maestría o Diploma}
-{Nombre de la Escuela donde se cursó la maestría}
-{Distrito de la universidad}
-{\textit{Ciudad de la univerdad}}
-{\textbf{%Mérito alcanzado en la maestría o diplomado}}
+\cventry{ %\includegraphics[width=2.3cm]{img/utadeo01.jpg} \\ 
+	 2020 -- 2022 (En curso)}
+{Maestr\'ia en Ingenier\'ia y Anal\'itica de Datos}
+{Universidad de Bogot\'a Jorge Tadeo Lozano}
+{Bogot\'a}
+{\textit{}}
+{\textbf{Mérito alcanzado en la maestría o diplomado}}
  
-\subsection{Complementaria}
- 
-\cventry{Año}{Título del curso}{Facultad}{Universidad}{\textbf{\textit{Número de horas}}}
  
 \section{Conocimientos Tecnológicos}
  
 \subsection{Usuario Avanzado}
  
 \cvdoubleitem % Este comando permite ingresa dos ítem en una solo nivel
-{\includegraphics[height=1.2cm]{graf/tulogo} \\ \textbf{Nombre del software}}{\textbf{Categoría del software}}  
-{\includegraphics[height=1.2cm]{graf/tulogo} \\ \textbf{Nombre del software}}{\textbf{Categoría del software}}
+{\includegraphics[height=1.2cm]{img/python01.png} \\ \textbf{Python}}{Programaci\'on general, An\'alisis de datos con Pandas y PySpark, visualizaci\'on de datos con matplotlib}
+{\includegraphics[height=1.2cm]{img/oracle01.png} \\ \textbf{Oracle Database}}{DDL y DML}
  
 \subsection{Usuario Intermedio}
+ \cvdoubleitem % Este comando permite ingresa dos ítem en una solo nivel
+ {\includegraphics[height=1.2cm]{img/sqlserver01.png} \\ 
+ 	\textbf{Microsoft SQL Server}}{DDL y DML con SQL Server. Diseno de ETL con Integrations Services.}
+ {\includegraphics[height=1.2cm]{img/pbi02.png} \\ 
+ 	\textbf{Power BI}}{Visualizacion de datos. Diseno de tableros de control}
  
+ \cvdoubleitem % Este comando permite ingresa dos ítem en una solo nivel
+ {\includegraphics[height=1.2cm]{img/azure01.png} \\ 
+ 	\textbf{Microsoft Azure}}{Orquestacion de flujos de datos con Data Factory. Construccion de ETL con PySpark en Azure Databricks. }
+ {\includegraphics[height=1.2cm]{img/linux02.png} \\ 
+ 	\textbf{Linux}}{Administracion del sistema por medio de comandos. Scripts basicos para bash. }
+ 
+  \cvdoubleitem % Este comando permite ingresa dos ítem en una solo nivel
+ {\includegraphics[height=1.2cm]{img/ibm02.png} \\ 
+ 	\textbf{IBM Infosphere DataStage}}{Diseno de ETL. }
+ {}{}
 \subsection{Usuario Básico}
+
+\cvdoubleitem % Este comando permite ingresa dos ítem en una solo nivel
+{\includegraphics[height=1.2cm]{img/r01.png} \\ 
+	\textbf{R}}{Analisis de datos. Estadistica desriptiva. Modelos de regresion lineal.}
+{\includegraphics[height=1.2cm]{img/gcp01.png} \\ 
+	\textbf{Google Cloud Platform}}{Consulta de datos en BigQuery. Construccion de ETL con Cloud Dataflow. }
  
 \section{Idiomas}
  
-\cvlanguage{Idioma}{Nivel}{Detalle del nivel}
+\cvlanguage{Ingl\'es}{C1}{Alto nivel de lectura y escucha. Nivel medio de escritura y habla.}
  
 \section{Experiencia Laboral}
  
@@ -91,7 +109,7 @@
 {Dirección}
 {Tipo de desempeño (Prácticas, Profesional)} % Específica el nivel de responsabilidad
 {\vspace{0.15cm}
-  \includegraphics[height=0.9cm]{graf/logo-empresa.png} %Coloca el logo de la empresa donde laboraste
+  \includegraphics[height=0.9cm]{img/bdb.png} %Coloca el logo de la empresa donde laboraste
   \vspace{0.15cm}}
  
 \cvitem{}
